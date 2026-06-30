@@ -1,0 +1,67 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 98vh;
+    padding-left: 15% ;
+
+    background-color: var(--light-gray);
+    align-items: center;
+}
+
+main header
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+     
+    background: linear-gradient(90deg, #05640d, var(--dark-green));
+
+    color: white;
+    font-size: 25px;
+}
+
+article
+{
+    /* z-index: 5; */
+    background-color: var(--light);
+    margin: 2rem;
+    padding: 4%;
+
+    color: var(--color);
+
+    border-radius: 32px;
+    /* border: 2px solid var(--dark-gray); */
+
+    box-shadow: 
+                20px 15px 20px 2px var(--shadow-light) ;
+
+    transition: all .2s ease-in;
+    text-align: center;
+
+}
+
+article:hover
+{
+    transform: scale(1.1) ;
+    margin-top: 50px;
+
+    color: white;
+    background-color: var(--dark-green);
+}
+
+article::after
+{
+    content: "";
+}
+
+
+article:hover::after
+{
+    content: "⛏️";
+    font-size: 40px;
+    
+}

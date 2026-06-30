@@ -1,0 +1,27 @@
+:root
+{
+    --darkest-green:#0a4a1b;
+    --light-green: #79ed91;
+    --dark-green: #23862b;
+    --dark-gray: #71776d;
+    --light-gray: #bebebe;
+    --light: #c7ced2;
+    --shadow-light:#999999;
+
+    --color:rgb(54, 53, 53);
+
+    --sm: 15px;
+    --md: 25px;
+    --lg: 25px;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{box-sizing: border-box; font-family: "IBM Plex Sans", sans-serif;}
+

@@ -1,0 +1,49 @@
+nav
+{
+    width: 15%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    /* gap: 5rem; */
+    align-items: flex-start;
+
+    position: fixed;
+    z-index: 15;
+
+    text-align: center;
+
+    background-color: var(--darkest-green);
+
+    /* border-right: 2px solid var(--dark-gray); */
+
+}
+
+nav a i {text-indent: 0;}
+
+nav a
+{
+
+    font-size: var(--md);
+    text-decoration: none;
+    color: white;
+
+    width: 100%;
+    text-align: left;
+    text-indent: 10px;
+
+    padding: 1.5rem;
+
+    transition: all .2s ease-in;
+}
+
+nav a:hover
+{
+    background-color: var(--dark-green);
+    font-weight: bolder;
+
+    transform: scale(0.9);
+    border-radius: 16px;
+}
